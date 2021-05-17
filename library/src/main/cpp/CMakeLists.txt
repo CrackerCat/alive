@@ -14,10 +14,8 @@ aux_source_directory(. SRC_LIST) # 搜索当前目录下的所有.cpp文件
 
 add_library( # Sets the name of the library.
         keep_alive
-
         # Sets the library as a shared library.
         SHARED
-
         # Provides a relative path to your source file(s).
         ${SRC_LIST})
 
